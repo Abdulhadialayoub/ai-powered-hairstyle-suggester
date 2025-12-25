@@ -1,0 +1,90 @@
+# Gerekli Saç Modeli Fotoğrafları
+
+Bu klasöre aşağıdaki fotoğrafları eklemelisiniz.
+Her fotoğraf 500x500 piksel veya daha büyük olmalı (kare format önerilir).
+
+## Dosya İsimleri:
+
+1. long-layers.jpg
+2. textured-bob.jpg
+3. side-swept-bangs.jpg
+4. pixie-cut.jpg
+5. beach-waves.jpg
+6. blunt-lob.jpg
+7. voluminous-curls.jpg
+8. high-ponytail.jpg
+9. shaggy-layers.jpg
+10. asymmetrical-bob.jpg
+11. soft-updo.jpg
+12. curtain-bangs.jpg
+13. sleek-straight.jpg
+14. messy-bun.jpg
+15. feathered-layers.jpg
+16. braided-crown.jpg
+17. undercut-volume.jpg
+18. low-chignon.jpg
+19. wispy-bangs.jpg
+20. half-up-half-down.jpg
+21. graduated-bob.jpg
+22. loose-waves.jpg
+23. buzz-cut.jpg
+24. side-part-volume.jpg
+25. fishtail-braid.jpg
+
+## Fotoğraf Nereden Bulunur:
+
+### Ücretsiz Kaynaklar:
+1. **Unsplash** - https://unsplash.com/s/photos/hairstyle
+2. **Pexels** - https://www.pexels.com/search/hairstyle/
+3. **Pixabay** - https://pixabay.com/images/search/hairstyle/
+
+### Arama Terimleri (İngilizce):
+- "long layered hair"
+- "textured bob haircut"
+- "side swept bangs"
+- "pixie cut hairstyle"
+- "beach waves hair"
+- "blunt lob haircut"
+- "voluminous curls"
+- "high ponytail"
+- "shaggy layers"
+- "asymmetrical bob"
+- "soft updo hairstyle"
+- "curtain bangs"
+- "sleek straight hair"
+- "messy bun"
+- "feathered layers"
+- "braided crown"
+- "undercut hairstyle"
+- "low chignon"
+- "wispy bangs"
+- "half up half down"
+- "graduated bob"
+- "loose waves"
+- "buzz cut"
+- "side part volume"
+- "fishtail braid"
+
+## Öneriler:
+
+1. **Format**: JPG veya PNG
+2. **Boyut**: Minimum 500x500px, ideal 800x800px
+3. **Kalite**: Yüksek çözünürlük
+4. **İçerik**: Net, iyi ışıklandırılmış saç modeli fotoğrafları
+5. **Arka plan**: Tercihen düz veya bulanık arka plan
+6. **Kişi**: Farklı yüz şekilleri ve saç tipleri
+
+## Hızlı Test İçin:
+
+Eğer hemen test etmek istiyorsan, placeholder (yer tutucu) fotoğraflar kullanabilirsin:
+- https://via.placeholder.com/500x500.jpg?text=Hairstyle+Name
+
+Veya AI ile fotoğraf üret:
+- DALL-E, Midjourney, Stable Diffusion ile saç modeli fotoğrafları oluştur
+
+## Lisans Uyarısı:
+
+Ticari kullanım için mutlaka lisans kontrolü yap!
+- Unsplash: Ücretsiz ticari kullanım ✅
+- Pexels: Ücretsiz ticari kullanım ✅
+- Pixabay: Ücretsiz ticari kullanım ✅

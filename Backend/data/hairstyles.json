@@ -1,0 +1,205 @@
+{
+  "hairstyles": [
+    {
+      "id": "hs001",
+      "name": "Undercut",
+      "description": "Yanlar kısa, üst uzun. Modern ve şık erkek saç kesimi.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 95,
+      "tags": ["modern", "short-sides", "professional", "trendy"]
+    },
+    {
+      "id": "hs002",
+      "name": "Fade Cut",
+      "description": "Yanlar soluklasan kesim. Temiz ve sportif görünüm.",
+      "suitable_face_shapes": ["oval", "round", "square"],
+      "image_url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 90,
+      "tags": ["fade", "short", "clean", "athletic"]
+    },
+    {
+      "id": "hs003",
+      "name": "Crew Cut",
+      "description": "Kısa ve pratik. Bakımı kolay, her yüze uygun.",
+      "suitable_face_shapes": ["oval", "square", "round", "heart"],
+      "image_url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["short", "easy", "classic", "low-maintenance"]
+    },
+    {
+      "id": "hs004",
+      "name": "Pompadour",
+      "description": "Üst hacimli, yanlar kısa. Klasik ve şık stil.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "hard",
+      "popularity": 80,
+      "tags": ["classic", "volume", "formal", "stylish"]
+    },
+    {
+      "id": "hs005",
+      "name": "Buzz Cut",
+      "description": "Çok kısa, tek boy. Minimal ve pratik.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 75,
+      "tags": ["very-short", "minimal", "easy", "bold"]
+    },
+    {
+      "id": "hs006",
+      "name": "Quiff",
+      "description": "Ön taraf yukarı, yanlar kısa. Modern ve dinamik.",
+      "suitable_face_shapes": ["oval", "heart", "diamond"],
+      "image_url": "https://images.pexels.com/photos/1182825/pexels-photo-1182825.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 88,
+      "tags": ["modern", "volume", "stylish", "trendy"]
+    },
+    {
+      "id": "hs007",
+      "name": "Side Part",
+      "description": "Yan ayrık, klasik stil. Profesyonel görünüm.",
+      "suitable_face_shapes": ["oval", "square", "round"],
+      "image_url": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 82,
+      "tags": ["classic", "professional", "formal", "elegant"]
+    },
+    {
+      "id": "hs008",
+      "name": "Textured Crop",
+      "description": "Dokulu ve katmanlı. Modern ve rahat stil.",
+      "suitable_face_shapes": ["oval", "round", "heart"],
+      "image_url": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 87,
+      "tags": ["textured", "modern", "casual", "trendy"]
+    },
+    {
+      "id": "hs009",
+      "name": "Slick Back",
+      "description": "Arkaya taranmış, şık ve düzgün.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 78,
+      "tags": ["formal", "elegant", "classic", "professional"]
+    },
+    {
+      "id": "hs010",
+      "name": "Messy Fringe",
+      "description": "Dağınık perçem, genç ve rahat stil.",
+      "suitable_face_shapes": ["oval", "heart", "round"],
+      "image_url": "https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 83,
+      "tags": ["casual", "young", "messy", "relaxed"]
+    },
+    {
+      "id": "hs011",
+      "name": "French Crop",
+      "description": "Kısa perçem, yanlar kısa. Şık ve modern.",
+      "suitable_face_shapes": ["oval", "round", "square"],
+      "image_url": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 86,
+      "tags": ["modern", "short", "stylish", "easy"]
+    },
+    {
+      "id": "hs012",
+      "name": "Ivy League",
+      "description": "Klasik ve düzgün. İş hayatı için ideal.",
+      "suitable_face_shapes": ["oval", "square", "heart"],
+      "image_url": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 79,
+      "tags": ["classic", "professional", "formal", "neat"]
+    },
+    {
+      "id": "hs013",
+      "name": "Mohawk Fade",
+      "description": "Ortası uzun, yanlar fade. Cesur ve modern.",
+      "suitable_face_shapes": ["oval", "diamond", "heart"],
+      "image_url": "https://images.pexels.com/photos/1687675/pexels-photo-1687675.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "hard",
+      "popularity": 72,
+      "tags": ["bold", "modern", "edgy", "unique"]
+    },
+    {
+      "id": "hs014",
+      "name": "Taper Fade",
+      "description": "Yumuşak geçişli fade. Temiz ve şık.",
+      "suitable_face_shapes": ["oval", "round", "square"],
+      "image_url": "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 89,
+      "tags": ["fade", "clean", "modern", "versatile"]
+    },
+    {
+      "id": "hs015",
+      "name": "Comb Over",
+      "description": "Yan taranan, klasik ve şık.",
+      "suitable_face_shapes": ["oval", "square", "round"],
+      "image_url": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 77,
+      "tags": ["classic", "elegant", "formal", "timeless"]
+    },
+    {
+      "id": "hs016",
+      "name": "Spiky Hair",
+      "description": "Dik ve sivri. Genç ve enerjik görünüm.",
+      "suitable_face_shapes": ["oval", "heart", "diamond"],
+      "image_url": "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 74,
+      "tags": ["young", "energetic", "bold", "fun"]
+    },
+    {
+      "id": "hs017",
+      "name": "Long Top Short Sides",
+      "description": "Üst uzun, yanlar kısa. Çok yönlü stil.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 91,
+      "tags": ["versatile", "modern", "stylish", "popular"]
+    },
+    {
+      "id": "hs018",
+      "name": "Caesar Cut",
+      "description": "Kısa perçem, düz kesim. Klasik Roma stili.",
+      "suitable_face_shapes": ["oval", "round", "heart"],
+      "image_url": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "easy",
+      "popularity": 76,
+      "tags": ["classic", "short", "easy", "timeless"]
+    },
+    {
+      "id": "hs019",
+      "name": "Faux Hawk",
+      "description": "Mohawk benzeri ama daha yumuşak. Modern ve şık.",
+      "suitable_face_shapes": ["oval", "diamond", "heart"],
+      "image_url": "https://images.pexels.com/photos/2887718/pexels-photo-2887718.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 81,
+      "tags": ["modern", "edgy", "stylish", "trendy"]
+    },
+    {
+      "id": "hs020",
+      "name": "Brushed Up",
+      "description": "Yukarı taranmış, hacimli. Dinamik görünüm.",
+      "suitable_face_shapes": ["oval", "square", "diamond"],
+      "image_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=400&h=600",
+      "difficulty": "medium",
+      "popularity": 84,
+      "tags": ["volume", "modern", "dynamic", "stylish"]
+    }
+  ]
+}
+

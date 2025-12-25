@@ -1,145 +1,126 @@
-# AI-Powered Hairstyle Suggester (React + Firebase) 💇‍♀️
+# AI Hairstyle Suggester
 
-An intelligent web application that uses computer vision to analyze a user's face shape from a photograph and recommend flattering hairstyles. This project is built on a modern, scalable **serverless architecture**, with a frontend powered by **React** and **Vite**.
+An AI-powered web application that analyzes face shapes from uploaded photos and recommends suitable hairstyles.
 
-![Application Interface Screenshot](https://i.imgur.com/your-app-screenshot.png)
----
+## Tech Stack
 
-## ✨ Core Features
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
--   🤖 **AI-Powered Face Analysis**: Automatically classifies the user's face shape (e.g., Oval, Square, Round) using **OpenCV** and **Dlib**.
--   ✨ **Personalized Recommendations**: Suggests a curated list of hairstyles best suited for the identified face shape.
--   👤 **Secure User Authentication**: A robust user registration and login system powered by **Firebase Authentication** using email and password.
--   ❤️ **Favorites System**: Allows users to save their favorite hairstyle suggestions to their personal profile for future reference.
--   ⚡ **Modern Frontend**: A fast, dynamic, and interactive user interface built with **React** and bundled with **Vite**.
--   ☁️ **Fully Serverless Architecture**: A scalable infrastructure running entirely on Google Firebase, eliminating the need for traditional server management.
+## Features
 
----
+- **Hybrid Face Analysis** - MediaPipe geometric analysis + CNN deep learning model
+- **Smart Recommendations** - Personalized hairstyle suggestions based on face shape
+- **AI Try-On** - Virtual hairstyle preview using PhotoMaker/Stable Diffusion
+- **AI Evaluation** - Google Gemini provides styling feedback
+- **User Authentication** - Register, login, session management
+- **Favorites System** - Save and manage favorite hairstyles
+- **Image Search** - Pexels integration for hairstyle images
 
-## 🛠️ Tech Stack
+## Quick Start
 
-This project integrates a range of modern technologies to provide a full-stack, serverless application experience.
+### Prerequisites
+- Python 3.8+
+- Node.js 18+
 
-### **Frontend (Client-Side)**
--   **React**: A component-based JavaScript library for building user interfaces.
--   **Vite**: A next-generation frontend tooling that provides an extremely fast development server and optimized build processes.
--   **JSX**: A syntax extension for JavaScript used with React to describe what the UI should look like.
--   **CSS Modules / Tailwind CSS**: For component-scoped styling.
--   **Firebase Web SDK**: The library that enables the React application to communicate with Firebase services.
+### 1. Clone & Setup Backend
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+```
 
-### **Backend (Serverless Services)**
--   **Firebase Authentication**: For handling user identity and authentication.
--   **Cloud Firestore**: A NoSQL database for storing user data, analysis results, and favorites.
--   **Cloud Storage for Firebase**: For securely storing user-uploaded photos.
--   **Cloud Functions for Firebase**: For running the serverless backend logic, including the AI analysis.
+### 2. Configure Environment
+Create `backend/.env`:
+```env
+REPLICATE_API_TOKEN=your_token
+STABILITY_API_KEY=your_key
+GEMINI_API_KEY=your_key
+PEXELS_API_KEY=your_key
+SECRET_KEY=your_secret
+```
 
-### **AI / Computer Vision** (within the Cloud Function)
--   **Python 3.9**: The runtime environment for the analysis script.
--   **OpenCV**: For face detection.
--   **Dlib**: For extracting facial landmarks.
+### 3. Setup Frontend
+```bash
+cd frontend
+npm install
+```
 
-### **Tools & Deployment**
--   **Git & GitHub**: For version control.
--   **Node.js & npm**: For JavaScript package management.
--   **Firebase CLI**: For deploying the application and local testing.
+### 4. Run Application
+```bash
+# Terminal 1 - Backend
+cd backend && python app.py
 
----
+# Terminal 2 - Frontend
+cd frontend && npm run dev
+```
 
-## 🚀 Setup and Local Development
+Access at: http://localhost:3000
 
-Follow these steps to run the project on your local machine.
+## Project Structure
 
-### **Prerequisites**
--   [Node.js](https://nodejs.org/) (v16+ recommended)
--   [Python 3.9+](https://www.python.org/)
--   [Firebase CLI](https://firebase.google.com/docs/cli):
-    ```bash
-    npm install -g firebase-tools
-    ```
+```
+├── backend/
+│   ├── app.py              # Flask entry point
+│   ├── routes/             # API endpoints
+│   ├── services/           # Business logic
+│   ├── ml/                 # ML models & training
+│   ├── data/               # Database files
+│   └── tests/              # Unit tests
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx         # Main component
+│   │   └── components/     # React components
+│   └── vite.config.js
+└── docs/                   # Documentation
+```
 
-### **Installation Steps**
+## API Endpoints
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/Abdulhadialayoub/ai-powered-hairstyle-suggester.git](https://github.com/Abdulhadialayoub/ai-powered-hairstyle-suggester.git)
-    cd ai-powered-hairstyle-suggester
-    ```
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/auth/register` | POST | Register user |
+| `/api/auth/login` | POST | Login |
+| `/api/analysis/analyze` | POST | Analyze face shape |
+| `/api/recommendations` | GET | Get hairstyle recommendations |
+| `/api/favorites` | GET/POST | Manage favorites |
+| `/api/try-on` | POST | AI hairstyle try-on |
+| `/api/ai/comment` | POST | Generate AI comment |
+| `/api/ml/analyze` | POST | CNN face analysis |
+| `/api/health` | GET | Health check |
 
-2.  **Set Up Your Firebase Project:**
-    -   Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
-    -   Enable **Authentication** (with the Email/Password method), **Firestore**, and **Storage**.
-    -   Upgrade your project to the **Blaze (Pay-as-you-go)** plan. This is required to use Cloud Functions with Python, but your usage for a class project will almost certainly stay within the free tier.
+Full API docs: http://localhost:5000/api/docs
 
-3.  **Connect Your Local Project to Firebase:**
-    ```bash
-    firebase login
-    firebase use --add
-    ```
-    > From the list, select the Firebase Project ID you just created.
+## External Services
 
-4.  **Frontend Setup:**
-    -   Navigate to your React app directory (e.g., `cd frontend` or the project root).
-    -   Install the necessary npm packages:
-        ```bash
-        npm install
-        ```
-    -   Create a `.env` file in the root of your frontend project and add your Firebase configuration details, which you can find in your Firebase project settings:
-        ```env
-        VITE_FIREBASE_API_KEY="your-api-key"
-        VITE_FIREBASE_AUTH_DOMAIN="your-auth-domain"
-        VITE_FIREBASE_PROJECT_ID="your-project-id"
-        VITE_FIREBASE_STORAGE_BUCKET="your-storage-bucket"
-        VITE_FIREBASE_MESSAGING_SENDER_ID="your-sender-id"
-        VITE_FIREBASE_APP_ID="your-app-id"
-        ```
+| Service | Purpose | Link |
+|---------|---------|------|
+| ![Google](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) | AI Comments | [makersuite.google.com](https://makersuite.google.com) |
+| ![Replicate](https://img.shields.io/badge/Replicate-000000?style=flat-square&logo=replicate&logoColor=white) | AI Try-On | [replicate.com](https://replicate.com) |
+| ![Stability](https://img.shields.io/badge/Stability_AI-5C3EE8?style=flat-square&logo=stability-ai&logoColor=white) | Image Generation | [stability.ai](https://stability.ai) |
+| ![Pexels](https://img.shields.io/badge/Pexels-05A081?style=flat-square&logo=pexels&logoColor=white) | Hairstyle Images | [pexels.com](https://pexels.com) |
 
-5.  **Backend (Cloud Functions) Setup:**
-    -   Inside the `functions` directory, add the required Python libraries to the `requirements.txt` file:
-        ```txt
-        opencv-python-headless
-        dlib
-        numpy
-        firebase-admin
-        google-cloud-storage
-        ```
+## Testing
 
-6.  **Start the Local Development Server:**
-    -   To run the frontend live, start the Vite development server:
-        ```bash
-        npm run dev
-        ```
-    -   Open your browser to `http://localhost:5173` (or the port specified by Vite).
-    > **Note:** To test Cloud Functions locally, it is highly recommended to use the **Firebase Emulator Suite**: `firebase emulators:start`
+```bash
+cd backend
+python -m pytest tests/ -v
+```
 
-### **Deployment**
+## Documentation
 
-1.  **Build the React Application:**
-    -   Run the build command to compile your frontend code into optimized static files. This will create a `dist` folder.
-        ```bash
-        npm run build
-        ```
+- [Architecture](docs/ARCHITECTURE.md) - System architecture diagram
+- [Academic Report](docs/ACADEMIC_REPORT.md) - Detailed technical report (Turkish)
+- [Project Summary](docs/PROJECT_SUMMARY.md) - Technical overview
+- [Testing Guide](backend/TESTING.md) - Test documentation
 
-2.  **Deploy to Firebase:**
-    -   Ensure your `firebase.json` file is configured to point to the `dist` folder for hosting:
-        ```json
-        {
-          "hosting": {
-            "public": "dist",
-            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-            "rewrites": [{
-              "source": "**",
-              "destination": "/index.html"
-            }]
-          }
-        }
-        ```
-    -   Finally, deploy your website and cloud functions to the live environment:
-        ```bash
-        firebase deploy
-        ```
+## License
 
----
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

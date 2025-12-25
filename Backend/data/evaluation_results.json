@@ -1,0 +1,391 @@
+{
+  "total": 20,
+  "correct": 7,
+  "failed": 1,
+  "no_face": 2,
+  "by_shape": {
+    "oval": {
+      "total": 4,
+      "correct": 4
+    },
+    "round": {
+      "total": 4,
+      "correct": 0
+    },
+    "square": {
+      "total": 4,
+      "correct": 1
+    },
+    "heart": {
+      "total": 4,
+      "correct": 0
+    },
+    "diamond": {
+      "total": 4,
+      "correct": 2
+    }
+  },
+  "confusion_matrix": {
+    "oval": {
+      "oval": 4,
+      "round": 0,
+      "square": 0,
+      "heart": 0,
+      "diamond": 0
+    },
+    "round": {
+      "oval": 1,
+      "round": 0,
+      "square": 1,
+      "heart": 0,
+      "diamond": 0
+    },
+    "square": {
+      "oval": 2,
+      "round": 0,
+      "square": 1,
+      "heart": 0,
+      "diamond": 1
+    },
+    "heart": {
+      "oval": 4,
+      "round": 0,
+      "square": 0,
+      "heart": 0,
+      "diamond": 0
+    },
+    "diamond": {
+      "oval": 1,
+      "round": 0,
+      "square": 0,
+      "heart": 0,
+      "diamond": 2
+    }
+  },
+  "details": [
+    {
+      "name": "Oval Portrait 1",
+      "expected": "oval",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.222,
+        "ratio_fj": 0.746,
+        "ratio_cj": 1.033,
+        "angle": 130,
+        "meta": {
+          "face_width": 154.32702350234553,
+          "face_length": 188.65330657600146,
+          "forehead_width": 111.52361455915243,
+          "jaw_width": 149.40358862914533
+        }
+      }
+    },
+    {
+      "name": "Oval Portrait 2",
+      "expected": "oval",
+      "predicted": "oval",
+      "confidence": 0.67,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.261,
+        "ratio_fj": 0.774,
+        "ratio_cj": 1.053,
+        "angle": 130,
+        "meta": {
+          "face_width": 89.08531542713807,
+          "face_length": 112.31625685448057,
+          "forehead_width": 65.4750085615186,
+          "jaw_width": 84.60450696097718
+        }
+      }
+    },
+    {
+      "name": "Oval Portrait 3",
+      "expected": "oval",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.242,
+        "ratio_fj": 0.779,
+        "ratio_cj": 1.05,
+        "angle": 130,
+        "meta": {
+          "face_width": 172.95055764120877,
+          "face_length": 214.8670929914805,
+          "forehead_width": 128.25047948052978,
+          "jaw_width": 164.63976206312006
+        }
+      }
+    },
+    {
+      "name": "Oval Portrait 4",
+      "expected": "oval",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.246,
+        "ratio_fj": 0.782,
+        "ratio_cj": 1.046,
+        "angle": 130,
+        "meta": {
+          "face_width": 63.866486379210684,
+          "face_length": 79.59405687013077,
+          "forehead_width": 47.76396815298697,
+          "jaw_width": 61.06484119992629
+        }
+      }
+    },
+    {
+      "name": "Round Portrait 2",
+      "expected": "round",
+      "predicted": "square",
+      "confidence": 0.63,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.156,
+        "ratio_fj": 0.732,
+        "ratio_cj": 1.044,
+        "angle": 91.9,
+        "meta": {
+          "face_width": 100.34379927042109,
+          "face_length": 116.011108123003,
+          "forehead_width": 70.34407722236364,
+          "jaw_width": 96.12561843219376
+        }
+      }
+    },
+    {
+      "name": "Round Portrait 3",
+      "expected": "round",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.195,
+        "ratio_fj": 0.725,
+        "ratio_cj": 1.035,
+        "angle": 130,
+        "meta": {
+          "face_width": 55.38479493102191,
+          "face_length": 66.16877080919308,
+          "forehead_width": 38.81266710133537,
+          "jaw_width": 53.52474665860345
+        }
+      }
+    },
+    {
+      "name": "Square Portrait 1",
+      "expected": "square",
+      "predicted": "diamond",
+      "confidence": 0.6,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.28,
+        "ratio_fj": 0.715,
+        "ratio_cj": 1.014,
+        "angle": 130,
+        "meta": {
+          "face_width": 71.77748046377278,
+          "face_length": 91.89655820294583,
+          "forehead_width": 50.6108862087716,
+          "jaw_width": 70.79849983718942
+        }
+      }
+    },
+    {
+      "name": "Square Portrait 2",
+      "expected": "square",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.154,
+        "ratio_fj": 0.834,
+        "ratio_cj": 1.074,
+        "angle": 130,
+        "meta": {
+          "face_width": 142.30319408161097,
+          "face_length": 164.2016082747416,
+          "forehead_width": 110.54031238715419,
+          "jaw_width": 132.5373773508305
+        }
+      }
+    },
+    {
+      "name": "Square Portrait 3",
+      "expected": "square",
+      "predicted": "square",
+      "confidence": 0.73,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.129,
+        "ratio_fj": 0.774,
+        "ratio_cj": 1.029,
+        "angle": 95.9,
+        "meta": {
+          "face_width": 196.11544236582202,
+          "face_length": 221.3266926051746,
+          "forehead_width": 147.53271598984685,
+          "jaw_width": 190.6417262992577
+        }
+      }
+    },
+    {
+      "name": "Square Portrait 4",
+      "expected": "square",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.193,
+        "ratio_fj": 0.729,
+        "ratio_cj": 1.038,
+        "angle": 130,
+        "meta": {
+          "face_width": 107.20811701435815,
+          "face_length": 127.85181984485828,
+          "forehead_width": 75.36119605610294,
+          "jaw_width": 103.32411149839568
+        }
+      }
+    },
+    {
+      "name": "Heart Portrait 1",
+      "expected": "heart",
+      "predicted": "oval",
+      "confidence": 0.64,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.245,
+        "ratio_fj": 0.789,
+        "ratio_cj": 1.055,
+        "angle": 130,
+        "meta": {
+          "face_width": 133.80395893874942,
+          "face_length": 166.60288672900845,
+          "forehead_width": 100.09761049470886,
+          "jaw_width": 126.84330020639264
+        }
+      }
+    },
+    {
+      "name": "Heart Portrait 2",
+      "expected": "heart",
+      "predicted": "oval",
+      "confidence": 0.67,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.296,
+        "ratio_fj": 0.761,
+        "ratio_cj": 1.037,
+        "angle": 130,
+        "meta": {
+          "face_width": 70.38189593010182,
+          "face_length": 91.22210825926923,
+          "forehead_width": 51.61672870458953,
+          "jaw_width": 67.85146078637983
+        }
+      }
+    },
+    {
+      "name": "Heart Portrait 3",
+      "expected": "heart",
+      "predicted": "oval",
+      "confidence": 0.67,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.298,
+        "ratio_fj": 0.785,
+        "ratio_cj": 1.037,
+        "angle": 130,
+        "meta": {
+          "face_width": 106.3237639936273,
+          "face_length": 137.9878055373609,
+          "forehead_width": 80.54367671042239,
+          "jaw_width": 102.57635975076622
+        }
+      }
+    },
+    {
+      "name": "Heart Portrait 4",
+      "expected": "heart",
+      "predicted": "oval",
+      "confidence": 0.55,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.091,
+        "ratio_fj": 0.843,
+        "ratio_cj": 1.075,
+        "angle": 130,
+        "meta": {
+          "face_width": 90.71988880345819,
+          "face_length": 98.96166643853317,
+          "forehead_width": 71.12130577002094,
+          "jaw_width": 84.41496361993731
+        }
+      }
+    },
+    {
+      "name": "Diamond Portrait 1",
+      "expected": "diamond",
+      "predicted": "diamond",
+      "confidence": 0.55,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 2.068,
+        "ratio_fj": 0.706,
+        "ratio_cj": 1.046,
+        "angle": 130,
+        "meta": {
+          "face_width": 55.13562045498495,
+          "face_length": 114.02978580358155,
+          "forehead_width": 37.19581283141336,
+          "jaw_width": 52.69179930362592
+        }
+      }
+    },
+    {
+      "name": "Diamond Portrait 2",
+      "expected": "diamond",
+      "predicted": "diamond",
+      "confidence": 0.6,
+      "correct": true,
+      "measurements": {
+        "ratio_lw": 1.314,
+        "ratio_fj": 0.689,
+        "ratio_cj": 1.045,
+        "angle": 130,
+        "meta": {
+          "face_width": 50.93297480935523,
+          "face_length": 66.91200759035125,
+          "forehead_width": 33.57601156048661,
+          "jaw_width": 48.75898552561748
+        }
+      }
+    },
+    {
+      "name": "Diamond Portrait 3",
+      "expected": "diamond",
+      "predicted": "oval",
+      "confidence": 0.67,
+      "correct": false,
+      "measurements": {
+        "ratio_lw": 1.307,
+        "ratio_fj": 0.731,
+        "ratio_cj": 1.025,
+        "angle": 130,
+        "meta": {
+          "face_width": 82.66729262653715,
+          "face_length": 108.08590417788135,
+          "forehead_width": 59.01594034542855,
+          "jaw_width": 80.68665852849543
+        }
+      }
+    }
+  ],
+  "timestamp": "2025-12-14T18:26:40.688696"
+}

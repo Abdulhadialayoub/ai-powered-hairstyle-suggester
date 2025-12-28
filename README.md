@@ -120,9 +120,9 @@ python -m pytest tests/ -v
 
 ## Documentation
 
-- [Architecture](docs/ARCHITECTURE.md) - System architecture diagram
-- [Academic Report](docs/ACADEMIC_REPORT.md) - Detailed technical report (Turkish)
-- [Project Summary](docs/PROJECT_SUMMARY.md) - Technical overview
+
+- [Academic Report](Documents/ACADEMIC_REPORT.md) - Detailed technical report (Turkish)
+- [Project Summary](Documents/PROJECT_SUMMARY.md) - Technical overview
 - [Testing Guide](backend/TESTING.md) - Test documentation
 
 ## License

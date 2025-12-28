@@ -123,7 +123,7 @@ python -m pytest tests/ -v
 
 - [Academic Report](Documents/ACADEMIC_REPORT.md) - Detailed technical report (Turkish)
 - [Project Summary](Documents/PROJECT_SUMMARY.md) - Technical overview
-- [Testing Guide](backend/TESTING.md) - Test documentation
+- [Testing Guide](Backend/TESTING.md) - Test documentation
 
 ## License
 

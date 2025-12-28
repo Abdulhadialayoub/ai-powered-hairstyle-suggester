@@ -1,5 +1,11 @@
 # AI Hairstyle Suggester
 
+<p align="center">
+  <img src="Documents/poster.png" alt="AI Hairstyle Suggester Poster" width="100%">
+  <br>
+  <i>Yapay zeka destekli yüz analizi yaparak, yüz şeklinize en uygun saç stilini öneren akıllı sistem.</i>
+</p>
+
 An AI-powered web application that analyzes face shapes from uploaded photos and recommends suitable hairstyles.
 
 ## Tech Stack
